@@ -1,0 +1,569 @@
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Maven+Pro&family=Nunito:wght@200&family=Philosopher&family=Poppins:wght@300&family=Share+Tech+Mono&display=swap');
+
+/*Panel de navegación*/
+.navbar {
+    background-color: #111111;
+  }
+  
+  .navbar-collapse {
+    align-items: center;
+    justify-content: space-between;  
+  }
+
+  .navbar-collapse img{
+    width: 40%;
+    padding-left: 25px;
+  }
+
+  .navbar-nav{
+    justify-content: center;
+    align-items: center;
+    padding-right: 25px;
+  }
+
+  .navbar-collapse a {
+    color: white;
+  }
+
+  .navbar-collapse a:hover {
+    color: #6b747e;
+  }
+
+  .nav-item {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    left: 50%;
+    padding-left: 30px;
+  }
+
+  .nav-link:hover {
+    color: rgb(177, 167, 112)
+  }
+
+  .btn-contact {
+    background-color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px rgb(177, 167, 112);
+  }
+  
+  .btn-contact:hover {
+    background-color: rgb(177, 167, 112);
+    border: 2px rgb(177, 167, 112);
+    border-radius: 8px;
+    color: white;
+  }
+
+  .btn-contact a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .btn-contact a:hover {
+    color: white;
+  }
+
+  /*General*/
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 40px !important;
+    font-weight: bold !important;
+    color: #94652a;
+  }
+  
+  
+  .section-black {
+    color: white;
+    background-color: black;
+    box-sizing: content-box;
+  }
+  
+  .section-white {
+    color: black;
+    background-color: white;
+  }
+  
+  .section-title {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  
+  .section-description {
+    font-size: 1.2rem;
+    color: #584e4e;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .section-text {
+    font-size: 1.2rem;
+  }
+  
+  .btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+    background-color: #aa915b !important;
+    color: white !important;
+    border: 2px #878b85 !important;
+  }
+  
+  .btn-info:hover {
+    background-color: #534213 !important;
+    border: 2px #6b747e;
+  }
+  
+  .text-black {
+    color: black;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  /*Mi descripción breve*/
+  .main {
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+    color: #344D67;
+    align-items: stretch;
+  }
+  
+  .main-principal {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-fotografia {
+    border-radius: 80%;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+  
+  .main-principal h2 {
+    margin-top: 20px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 25px;
+    color: #807746;
+  }
+
+  .main-inferior-imagen {
+    margin-bottom: 30px;
+    width: 50%;
+  }
+
+  .main-slogan h3 {
+    margin-bottom: 35px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    color: #807746;
+  }
+  
+  /*Sobre mí*/
+  .sobre-mi {
+    height: 100%;
+    background-color: black;
+  }
+  
+  .sobre-mi .contenedor {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  .btn-hidden {
+    background-color: #c0a05a;
+    color: white;
+    border-radius: 15px;
+    border: #c0a05a;
+    padding: 7px;
+  }
+
+  .btn-hidden:hover {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border: #c0a05a;
+  }
+  
+  /*Experiencia*/
+  .container{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .experience {
+    padding: 40px 0px 40px 0px;
+  }
+  
+  .experience .columna {
+    border: 1px solid #693e154d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+  }
+  
+  .experience .columna:hover {
+    color: white;
+    background-color: #c0a05a;
+  }
+  
+  .experience i {
+    font-size: 2.5rem;
+    color: #000000;
+    background-color: #ddc78a;
+    padding: 8px 19px;
+    margin-top: 10px;
+    border-radius: 50%;
+  }
+  
+  .experience-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  .badges-contenedor a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .badges-contenedor a:hover {
+    color: white;
+  }
+  
+  .badges-contenedor span{
+    background-color: #ddc78a !important;
+    cursor: pointer;
+  }
+  
+  .badges-contenedor span:hover{
+    background-color: black !important;
+  }
+  
+  .badge {
+    margin: 5px;
+  }
+  
+  /*Proyectos realizados*/
+  .proyectos-recientes {
+    padding: 40px;
+  }
+  
+  .proyectos-recientes img {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.3s ease;
+  }
+
+  .proyectos-recientes .section-white {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .proyectos-contenedor {
+    text-align: center;
+  }
+  
+  .proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+  }
+  
+  .overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .proyecto {
+    position: relative;
+  }
+  
+  .proyecto:hover img {
+    opacity: 0.2;
+  }
+  
+  .proyecto:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay .iconos-contenedor {
+    display: flex;
+  }
+  
+  .overlay i {
+    color: rgb(73, 50, 14);
+    font-size: 60px;
+    margin: 10px;
+  }
+  
+  /*Artículos adicionales*/
+  .articulos {
+    min-height: 500px;
+    padding: 30px;
+    justify-content: start;
+  }
+
+  .articulos h3 {
+    margin-bottom: 40px;
+  }
+  
+  .articulos .card {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .articulos .card a {
+    text-decoration: none;
+  }
+  
+  .articulos .card-header {
+    font-weight: bold;
+  }
+  
+  /*Referencias*/
+  .referencias {
+    padding: 40px 40px 80px 40px;
+  }
+  
+  .referencias .carousel {
+    max-width: 800px;
+  }
+  
+  .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .referencia-imagen {
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 100px;
+  }
+  
+  .referencia-texto {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+  }
+  
+  .referencia-info {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .referencia-info p {
+    margin-bottom: 0;
+  }
+  
+  .referencia-footer .compañero {
+    font-size: 1.2rem;
+  }
+  
+  .referencia-info .cargo {
+    font-size: 0.9rem;
+    color: #656060;
+  }
+  
+  /* Contacto */
+  .contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+    background-color: black;
+  }
+  
+  .contacto .rectangulo {
+    margin-top: -5rem;
+    background-color: #aa915b;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+  }
+  
+  .contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contacto .description {
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  .contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .contacto button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .contacto button:hover i {
+    color: black;
+  }
+  
+  /*Footer*/
+  footer {
+    min-height: 500px;
+    background-color: black;
+  }
+  
+  .footer-logo {
+    height: auto;
+    width: 10%;
+    margin: 10px;
+  }
+  
+  .footer-text {
+    text-align: center;
+    font-size: 1.75rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+    background: -webkit-linear-gradient(rgb(148, 146, 38),white,rgb(148, 146, 38));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;
+  }
+  
+  .iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid #a09c82;
+  }
+  
+  .iconos-redes-sociales a:hover i {
+    color: #a09c82;
+  }
+  
+  .derechos-de-autor {
+    font-size: 15px;
+    color: #ebe8cb;
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 400px) {
+    .overlay p {
+      font-size: 18px;
+    }
+  
+    .overlay i {
+      font-size: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .navbar-brand {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .referencia-imagen {
+      height: 120px;
+      width: 120px;
+    }
+  
+    .referencia-texto {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (min-width: 700px) {
+    .main-inferior-imagen {
+      max-width: 600px;
+    }
+  }
+
+  @media screen and (max-width: 390px) {
+    .referencia-texto {
+      font-size: 14px;
+    }
+  }
